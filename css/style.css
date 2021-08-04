@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Montserrat Bold", sans-serif;
+  color: #101010;
+}
+p {
+  color: #676767;
+}
+span {
+  font-family: "Montserrat Bold";
+  color: #101010;
+  font-size: 28px;
+}
+body {
+  width: 1200px;
+  height: 1200px;
+  padding: 100px 135px;
+}
+.row {
+  display: flex;
+}
+.cars {
+  position: relative;
+  height: 190px;
+  border: 5px solid #bc212f;
+}
+.cars img {
+  position: absolute;
+  top: -100px;
+  margin: 0 80px;
+}
+.content__title {
+  margin-top: 15px;
+}
+.content__title h1 {
+  font-size: 96px;
+}
+.content__title h1 svg {
+  margin-bottom: 14px;
+}
+.content__photo {
+  min-width: 230px;
+  width: 450px;
+}
+.content__photo img {
+  width: 100%;
+  height: 100%;
+  margin: 0 50px;
+}
+.content__desc {
+  min-width: 330px;
+  width: 330px;
+  margin-left: auto;
+}
+.content__desc h2 {
+  font-size: 35px;
+  font-family: "Montserrat Extra Bold";
+}
+.content__desc hr {
+  width: 90%;
+  height: 5px;
+  background-color: #bc212f;
+  border: 0;
+  margin: 15px 0;
+}
+.content__desc p {
+  margin-top: 12px;
+  font-size: 25px;
+  color: gray;
+  font-family: "Montserrat Bold";
+}
+.content__desc p span {
+  font-family: "Montserrat Extra Bold";
+}
+.container {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+.nslider {
+  height: 370px;
+  margin-top: 15px;
+}
+.nslider-button {
+  background-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+}
+.deco {
+  position: absolute;
+  top: -30px;
+  width: 260px;
+  height: 360px;
+  margin-left: 150px;
+}
+.deco .bg-rect {
+  z-index: -100;
+  position: absolute;
+  height: 100%;
+  width: 260px;
+  border-top: 5px solid #bc212f;
+  border-left: 5px solid #bc212f;
+  border-bottom: 5px solid #bc212f;
+}
+.deco .front-rect {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  border-right: 5px solid #bc212f;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 330px;
+  height: 200px;
+}
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Montserrat Extra Bold";
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
