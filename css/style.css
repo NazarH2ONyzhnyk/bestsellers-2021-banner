@@ -18,19 +18,12 @@ span {
 body {
   width: 1200px;
   height: 1200px;
-  padding: 100px 135px;
+  padding: 0px 135px;
 }
 .row {
   display: flex;
 }
-.cars {
-  position: relative;
-  height: 190px;
-  border: 5px solid #bc212f;
-}
 .cars img {
-  position: absolute;
-  top: -100px;
   margin: 0 80px;
 }
 .content__title {
@@ -88,28 +81,6 @@ body {
 .nslider-button {
   background-color: rgba(0, 0, 0, 0) !important;
   box-shadow: none !important;
-}
-.deco {
-  position: absolute;
-  top: -30px;
-  width: 260px;
-  height: 360px;
-  margin-left: 150px;
-}
-.deco .bg-rect {
-  z-index: -100;
-  position: absolute;
-  height: 100%;
-  width: 260px;
-  border-top: 5px solid #bc212f;
-  border-left: 5px solid #bc212f;
-  border-bottom: 5px solid #bc212f;
-}
-.deco .front-rect {
-  position: absolute;
-  right: 0;
-  height: 100%;
-  border-right: 5px solid #bc212f;
 }
 footer {
   display: flex;
